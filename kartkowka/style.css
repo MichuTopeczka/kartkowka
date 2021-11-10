@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+.search-box{
+   
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: red;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    top: 5%;
+    
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+
+}
+.search-btn{
+ color: blue;
+ float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background: red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ 
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+   line-height: 40px;
+   width: 0px;
+
+
+}
+.logo2_adobespark.png{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -100%;
+
+
+}
+.es{
+    position: absolute;
+    float: center;
+   right: 13%;
+    
+}
+.container {
+    position: relative;
+    font-family: Arial;
+  }
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }  
+.button{
+    position: absolute;
+
+}
+.footer{
+    text-align: left;
+    width: min-content;
+}
+.navigation{
+    right: 30%;
+}
